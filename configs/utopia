@@ -1,0 +1,11 @@
+hmm:5
+ibm1:5
+source:../corpora/utopia.en
+target:../corpora/utopia.zh
+null-token:true
+output:../utopia.viterbi
+root-dir:../
+clean-up:true
+reverse-order:true
+log-prob:true
+number-reducers:10

@@ -1,0 +1,11 @@
+hmm:5
+ibm1:5
+source:../corpora/nc20000.de
+target:../corpora/nc20000.en
+null-token:true
+output:../nc20000.viterbi
+root-dir:../
+clean-up:true
+reverse-order:false
+log-prob:true
+number-reducers:10

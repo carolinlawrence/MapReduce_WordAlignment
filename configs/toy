@@ -1,0 +1,11 @@
+hmm:1
+ibm1:1
+source:../corpora/fr
+target:../corpora/en
+null-token:false
+output:../toy.viterbi
+root-dir:../
+clean-up:false
+reverse-order:false
+log-prob:false
+number-reducers:1
