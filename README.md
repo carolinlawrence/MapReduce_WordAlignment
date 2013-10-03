@@ -2,8 +2,7 @@ MapReduce_WordAlignment
 =======================
 
 -------------------------------------------------
-Final Project for Advanced Programming SS2013
-handed in by Carolin Haas
+Final Project for Advanced Programming SS2013 handed in by Carolin Haas
 -------------------------------------------------
 
 Contents
