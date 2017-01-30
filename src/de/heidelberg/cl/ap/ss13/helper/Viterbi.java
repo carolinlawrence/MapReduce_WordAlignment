@@ -35,7 +35,7 @@ public class Viterbi{
 		HashMap<String, Double> trans_table;
 		double prob;
 		String search_in_map = "";
-		trans_table = ReaderHDFS.readInTableHDFS(parameter_directory, number_reducers, fs);//investigate if this works/why there don't seem to be any entries
+		trans_table = ReaderHDFS.readInTableHDFS(parameter_directory, number_reducers, fs);
 		transition = ReaderHDFS.readTransitionProbHDFS(parameter_directory, number_reducers, fs);
 		pi = ReaderHDFS.readIniStateProbHDFS(parameter_directory, number_reducers, fs);
 		StringBuilder output = new StringBuilder();
